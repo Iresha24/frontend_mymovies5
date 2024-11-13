@@ -17,9 +17,10 @@ const [moviesHomePage, setMoviesHomePage] = useState([])
         setMoviesHomePage(data.movies);
       });
   }, []);
-console.log(moviesHomePage)
+  //
 
 
+//
   const [likedMovies, setLikedMovies] = useState([]);
 
   // Liked movies (inverse data flow)
