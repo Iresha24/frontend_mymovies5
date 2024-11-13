@@ -11,7 +11,7 @@ function Home() {
 
 const [moviesHomePage, setMoviesHomePage] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/movies')
+    fetch('https://backend-mymovies5.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         setMoviesHomePage(data.movies);
